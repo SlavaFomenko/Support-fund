@@ -24,5 +24,5 @@
 
 ## Посилання на макет 
 
-https://www.figma.com/landing_page
+[https://www.figma.com/landing_page](https://www.figma.com/file/LrV1mYg4v60T1onO4Q81pN/%D0%9C%D0%B0%D0%BA%D0%B5%D1%82-%D1%81%D0%B0%D0%B9%D1%82%D1%83?type=design&node-id=0-1&t=A9T5127zIlHwYzit-0)
 
