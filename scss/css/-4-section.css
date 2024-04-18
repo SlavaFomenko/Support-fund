@@ -1,0 +1,11 @@
+.section-4 {
+  height: auto;
+}
+.section-4 .card {
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+.section-4 .card p {
+  width: 50%;
+}/*# sourceMappingURL=-4-section.css.map */

@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
 @import './blocks/header';
 @import './blocks/footer';
+@import './blocks/1-section';
+@import './blocks/2-section';
+@import './blocks/3-section';
+@import './blocks/4-section';
+@import './blocks/5-section';
 
 :root {
 	--button-color: #7ae5fd;
@@ -37,4 +42,13 @@ body {
 
 main {
 	flex-grow: 1;
+	margin-top: 6.5625rem;
+
+	display: flex;
+	flex-direction: column;
+}
+
+section {
+	padding: 0 5%;
+	width: 100%;
 }

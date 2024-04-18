@@ -1,0 +1,54 @@
+.section-5 {
+	height: auto;
+	padding: 10rem;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+
+	h2 {
+		font-size: 3.75rem;
+		font-weight: 300;
+		text-transform: uppercase;
+		margin-bottom: 1.25rem;
+	}
+	h4 {
+		font-size: 1.7875rem;
+		margin-top: 3.125rem;
+		margin-bottom: 1.0625rem;
+	}
+	h5 {
+		font-size: 1.25rem;
+		color: #73a6b1;
+	}
+
+	span {
+		height: auto;
+		display: flex;
+		gap: 0.8125rem;
+		font-size: 3.75rem;
+		margin-bottom: 3.125rem;
+		.line {
+			display: block;
+			width: 2px;
+			height: 100%;
+			background-color: #9ad2de;
+		}
+	}
+
+	button {
+		width: min-content;
+		text-wrap: nowrap;
+		border: none;
+		font-size: 1.125rem;
+		font-weight: 300;
+		letter-spacing: 1px;
+		text-transform: uppercase;
+		border-radius: 1000px;
+		padding: 1.3125rem 2.1875rem;
+		background-color: var(--button-color);
+		cursor: pointer;
+	}
+}

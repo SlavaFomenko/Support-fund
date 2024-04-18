@@ -1,0 +1,42 @@
+.section-4 {
+	height: auto;
+	padding-top: 13.125rem;
+	padding-bottom: 13.125rem;
+
+	.card {
+		position: relative;
+		width: 100%;
+		height: auto;
+		padding: 3.75rem;
+		border-radius: 1.25rem;
+
+		display: flex;
+		align-items: center;
+		background-color: #f1fdff;
+
+		p {
+			font-size: 1.475rem;
+			width: 50%;
+			padding-right: 6.25rem;
+		}
+
+		.image {
+			height: auto;
+			bottom: 0;
+			width: 50%;
+			display: flex;
+			justify-content: center;
+
+			.line {
+				bottom: 0;
+				position: absolute;
+			}
+
+			.kids {
+				bottom: 0;
+
+				position: absolute;
+			}
+		}
+	}
+}

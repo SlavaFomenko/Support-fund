@@ -51,8 +51,207 @@ footer {
   color: white;
   padding: 20px;
   width: 100%;
-  position: sticky;
   bottom: 0;
+}
+
+.section-1 {
+  height: calc(100vh - 6.5625rem);
+  background-image: url("../../images/1-section/background.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+.section-1 h1 {
+  max-width: 50%;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: white;
+  font-size: 3.9375rem;
+}
+.section-1 button {
+  width: -moz-min-content;
+  width: min-content;
+  text-wrap: nowrap;
+  border: none;
+  font-size: 1.125rem;
+  font-weight: 300;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border-radius: 1000px;
+  padding: 1.3125rem 2.1875rem;
+  background-color: white;
+  cursor: pointer;
+}
+.section-1 p {
+  color: black;
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+.section-2 {
+  height: auto;
+  padding: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.section-2 h2 {
+  font-size: 3.75rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin-bottom: 1.25rem;
+}
+.section-2 h4 {
+  font-size: 1.7875rem;
+  margin-bottom: 0.9375rem;
+}
+.section-2 h5 {
+  font-size: 1.25rem;
+  color: #73a6b1;
+}
+
+.section-3 {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 3.125rem;
+  align-items: center;
+  margin-bottom: 10rem;
+}
+.section-3 .card {
+  border-radius: 1.25rem;
+  width: 100%;
+  background-color: #f1fdff;
+  display: flex;
+  align-items: center;
+  padding: 40px;
+}
+.section-3 .card .card__text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.section-3 .card .card__text h1 {
+  font-size: 4.25rem;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.section-3 .card .card__text p {
+  font-size: 20px;
+}
+.section-3 .card .image {
+  width: 50%;
+}
+.section-3 .card .image img {
+  height: 100%;
+}
+.section-3 button {
+  width: -moz-min-content;
+  width: min-content;
+  text-wrap: nowrap;
+  border: none;
+  font-size: 1.125rem;
+  font-weight: 300;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border-radius: 1000px;
+  padding: 1.3125rem 2.1875rem;
+  background-color: var(--button-color);
+  cursor: pointer;
+}
+
+.section-4 {
+  height: auto;
+  padding-top: 13.125rem;
+  padding-bottom: 13.125rem;
+}
+.section-4 .card {
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 3.75rem;
+  border-radius: 1.25rem;
+  display: flex;
+  align-items: center;
+  background-color: #f1fdff;
+}
+.section-4 .card p {
+  font-size: 1.475rem;
+  width: 50%;
+  padding-right: 6.25rem;
+}
+.section-4 .card .image {
+  height: auto;
+  bottom: 0;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.section-4 .card .image .line {
+  bottom: 0;
+  position: absolute;
+}
+.section-4 .card .image .kids {
+  bottom: 0;
+  position: absolute;
+}
+
+.section-5 {
+  height: auto;
+  padding: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.section-5 h2 {
+  font-size: 3.75rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin-bottom: 1.25rem;
+}
+.section-5 h4 {
+  font-size: 1.7875rem;
+  margin-top: 3.125rem;
+  margin-bottom: 1.0625rem;
+}
+.section-5 h5 {
+  font-size: 1.25rem;
+  color: #73a6b1;
+}
+.section-5 span {
+  height: auto;
+  display: flex;
+  gap: 0.8125rem;
+  font-size: 3.75rem;
+  margin-bottom: 3.125rem;
+}
+.section-5 span .line {
+  display: block;
+  width: 2px;
+  height: 100%;
+  background-color: #9ad2de;
+}
+.section-5 button {
+  width: -moz-min-content;
+  width: min-content;
+  text-wrap: nowrap;
+  border: none;
+  font-size: 1.125rem;
+  font-weight: 300;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border-radius: 1000px;
+  padding: 1.3125rem 2.1875rem;
+  background-color: var(--button-color);
+  cursor: pointer;
 }
 
 :root {
@@ -91,4 +290,12 @@ body {
 
 main {
   flex-grow: 1;
+  margin-top: 6.5625rem;
+  display: flex;
+  flex-direction: column;
+}
+
+section {
+  padding: 0 5%;
+  width: 100%;
 }/*# sourceMappingURL=main.css.map */

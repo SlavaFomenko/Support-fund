@@ -1,0 +1,40 @@
+.section-1 {
+	height: calc(100vh - 6.5625rem);
+	background-image: url('../../images/1-section/background.svg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position-y: -70px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 20px;
+
+	h1 {
+		max-width: 50%;
+		font-weight: 900;
+		text-transform: uppercase;
+		color: white;
+		font-size: 3.9375rem;
+	}
+
+	button {
+		width: min-content;
+		text-wrap: nowrap;
+		border: none;
+		font-size: 1.125rem;
+		font-weight: 300;
+		letter-spacing: 1px;
+		text-transform: uppercase;
+		border-radius: 1000px;
+		padding: 1.3125rem 2.1875rem;
+		background-color: white;
+		cursor: pointer;
+	}
+
+	p {
+		color: black;
+		font-size: 1.25rem;
+		font-weight: 300;
+	}
+}
