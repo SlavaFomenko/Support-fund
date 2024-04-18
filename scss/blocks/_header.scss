@@ -1,0 +1,50 @@
+header {
+	background-color: white;
+	padding: 20px 5%;
+	width: 100vw;
+	height: auto;
+	position: fixed;
+	top: 0;
+	z-index: 1000;
+
+	display: flex;
+	justify-content: space-between;
+
+	.logo {
+		height: 65px;
+		cursor: pointer;
+		img {
+			height: 100%;
+			object-fit: cover;
+		}
+	}
+
+	.navigation {
+		display: flex;
+		gap: 1.5625rem;
+
+		ul {
+			height: 100%;
+			align-items: center;
+			display: flex;
+			gap: 3.4375rem;
+
+			a {
+				color: black;
+				font-size: 1.125rem;
+				font-weight: 300;
+			}
+		}
+		button {
+			border: none;
+			font-size: 1.125rem;
+			font-weight: 300;
+			letter-spacing: 1px;
+			text-transform: uppercase;
+			border-radius: 1000px;
+			padding: 1.3125rem 2.1875rem;
+			background-color: var(--button-color);
+			cursor: pointer;
+		}
+	}
+}
