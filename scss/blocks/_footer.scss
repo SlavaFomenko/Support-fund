@@ -1,7 +1,99 @@
 footer {
-	background-color: #333;
-	color: white;
-	padding: 20px;
-	width: 100%;
 	bottom: 0;
+	width: 100%;
+	background-color: #f9fadf;
+	padding: 3.125rem 5%;
+	display: flex;
+	flex-direction: column;
+	gap: 50px;
+	.contacts {
+		gap: 10%;
+		display: flex;
+		align-items: center;
+		h2 {
+			font-size: 3.75rem;
+			font-weight: 300;
+			text-align: center;
+			width: 45%;
+		}
+		.contacts-info {
+			width: 45%;
+			display: flex;
+			flex-direction: column;
+			gap: 3.5625rem;
+			.info__phone {
+				p {
+					line-height: 1.5;
+				}
+				span {
+					font-weight: 600;
+				}
+			}
+		}
+	}
+
+	.mail {
+		display: flex;
+		background-color: white;
+		padding: 3.75rem;
+		gap: 10%;
+		.image {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			width: 45%;
+
+			img {
+				filter: drop-shadow(10px 10px 10px #65656571);
+			}
+		}
+		.form {
+			width: 45%;
+
+			display: flex;
+			flex-direction: column;
+
+			h3 {
+				font-size: 1.5625rem;
+				margin-bottom: 20px;
+			}
+
+			form {
+				height: 100%;
+				display: flex;
+
+				flex-direction: column;
+				justify-content: space-between;
+				align-items: center;
+
+				input {
+					font-size: 1.25rem;
+					padding: 1.3125rem;
+					width: 100%;
+
+					background-color: #f9fadf;
+					border-radius: 62.5rem;
+					border: none;
+					padding-left: 2.6875rem;
+				}
+				input::placeholder {
+					color: black;
+				}
+
+				button {
+					width: 100%;
+					text-wrap: nowrap;
+					border: none;
+					font-size: 1.125rem;
+					font-weight: 300;
+					letter-spacing: 1px;
+					text-transform: uppercase;
+					border-radius: 1000px;
+					padding: 1.3125rem 2.1875rem;
+					background-color: var(--button-color);
+					cursor: pointer;
+				}
+			}
+		}
+	}
 }
